@@ -27,7 +27,7 @@ const Footer = () => {
     <div>
         <h6 className='font-medium text-gray-400 text-2xl'>Contact</h6>
         <ul>
-            <li className='text-sm py-2'>Email: b.techsolutions241@gmail.com</li>
+            <li className='text-sm py-2'>Email: brighttechsolution241@gmail.com</li>
             <li   className='text-sm py-2'>Address : Kigali , Rwanda.</li>
             <li   className='text-sm py-2'>Phone: +24176557252</li>
         </ul>
