@@ -30,7 +30,9 @@ setNav(!nav);
             {nav ? <AiOutlineClose size={20}  className='fixed flex font-bold bg-[#00df93] text-white'  />  :   <AiOutlineMenu size={20} />}
         </div>
         <div className={nav ? 'fixed left-0  top-0 w-[60%] border-r border-r-gray-900 h-full bg-black ease-in-out duration-500' : '   ease-in-out duration-500 fixed left-[-100%]'}>
-        <h1 className=' font-bold w-full text-3xl text-[#00df83] m-4'>MZ TECH</h1>
+
+        <a className=' font-bold w-full text-3xl m-4 text-[#00df93]'><img src={Logo20}  alt="" className='w-[85px]'/></a>
+       
             <ul className='uppercase  p-4'>
             <li><Link  to="Hero" spy={true}  smooth={true}  offset={100}  duration={500}  className='p-4'>Home</Link></li>
        <li><Link  to="About" spy={true}  smooth={true}  offset={100}  duration={500}    className='p-4'>About</Link></li>    
