@@ -2,9 +2,9 @@
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-
-
-
+import Macbook-Air-demenagementsw.com     from '../images/Macbook-Air-demenagementsw.com.png'
+import Macbook-Air-localhost     from '../images/Macbook-Air-localhost.png'
+import Macbook-Air-www.kivubg.com     from '../images/Macbook-Air-www.kivubg.com.png'
 const Portfolio = () => {
     
     useEffect( ()=> {
@@ -20,7 +20,7 @@ const Portfolio = () => {
 <div className='rounded-md  py-2  md:py-20 px-10 ' data-aos="fade-up" data-aos-once="true">
 
 <div >
-    <img src='src/images/Macbook-Air-demenagementsw.com.png' alt="Picture" />
+    <img src={Macbook-Air-demenagementsw.com } alt="Picture" />
 </div>
 
  <div className='flex mt-3 justify-center items-center'>
@@ -37,7 +37,7 @@ const Portfolio = () => {
 <div className='rounded-md  py-2  md:py-20 px-10  ' data-aos="fade-right" data-aos-once="true">
 
 <div>
-    <img src='src/images/Macbook-Air-www.kivubg.com.png' alt="Picture" />
+    <img src={Macbook-Air-localhost } alt="Picture" />
 </div>
 
  <div className='flex mt-3 justify-center items-center'>
@@ -53,7 +53,7 @@ const Portfolio = () => {
 <div className='rounded-md  py-2  md:py-20 px-10  ' data-aos="fade-right" data-aos-once="true">
 
 <div>
-    <img src='src/images/P3.png' alt="Picture" />
+    <img src={Macbook-Air-www.kivubg.com}  alt="Picture" />
 </div>
 
  <div className='flex mt-3 justify-center items-center'>
